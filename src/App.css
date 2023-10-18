@@ -1,0 +1,27 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+}
+
+
+
+/* global class names */
+.bg-color{
+  background: var(--Button, #000);
+}
+
+.title-white{
+  color: #FFFFFF;
+}
+
+.container{
+  margin: 0px 120px;
+}
+
+
+@media(max-width:960px){
+  .container{
+  margin: 0px 20px;
+  }
+}
