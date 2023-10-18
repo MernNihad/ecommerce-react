@@ -1,4 +1,7 @@
 import React from 'react'
+import { FiHeart,FiSearch,FiShoppingCart } from 'react-icons/fi';
+
+
 import css from "../Header.module.css"
 
 
@@ -17,10 +20,14 @@ function SecondHeading() {
             </ul>
         </div>
         <div className={css.headerRight}>
-            <input type="search" />
-            <a href="">HH</a>
-            <a href="">HH</a>
-            <a href="">HH</a>
+
+            <div className={css.searchContainer}>
+                <input type="search" />
+                <a href=""><FiSearch/> </a>
+
+            </div>
+            <a href=""> <FiHeart/> </a>
+            <a href=""><FiShoppingCart/></a>
         </div>
     </header>
   )
